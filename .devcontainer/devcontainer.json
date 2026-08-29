@@ -1,0 +1,11 @@
+{
+  "name": "meet2meet",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "meet2meet",
+      "onAutoForward": "openPreview",
+      "visibility": "public"
+    }
+  }
+}
