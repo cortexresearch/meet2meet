@@ -4,6 +4,9 @@
   "features": {
     "ghcr.io/devcontainers-contrib/features/pnpm:2": {}
   },
+  "containerEnv": {
+    "DATABASE_URL": "file:./dev.db"
+  },
   "forwardPorts": [3000],
   "portsAttributes": {
     "3000": {
